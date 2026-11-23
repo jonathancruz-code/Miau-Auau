@@ -1,0 +1,6 @@
+{
+  "name": "Miau & Auau",
+  "description": "Sistema interno de cadastro e controle de entrada e saída de pets para banho e tosa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F0F0F0;
+    color: #343546;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  input,
+  select,
+  textarea,
+  button,
+  label {
+    scroll-margin-top: 24px;
+    scroll-margin-bottom: 96px;
+  }
+}
